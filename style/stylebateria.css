@@ -6,17 +6,19 @@
   --luz: rgb(31, 16, 235);
 }
 
-body {
+
+
+.bodyteclado {
   align-items: center;
   background:#040D12;
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
-  min-height: 100vh;
+  min-height: 78vh;
 }
 
-h1 {
+.tecladoh1 {
   color: var(--branca);
   margin-bottom: 20px;
   font-size: 2rem;
