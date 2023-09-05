@@ -1,7 +1,12 @@
 
 function tocaSom (seletorAudio) {
+    const elemento = document.querySelector(seletorAudio).play();
 
-    document.querySelector(seletorAudio).play();
+    if (elemento != null){
+           elemento.play();
+    }
+    
+ 
 }
 
 
